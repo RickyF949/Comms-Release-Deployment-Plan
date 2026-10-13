@@ -1,0 +1,5 @@
+## Comms Release Plan
+- [x] Set up Postgres models and a migration for merchants, pending communications, and communication logs, including a status index and an ordered pending-jobs query. Use a restrained operations design: warm off-white canvas, ink text, teal status accents, clear sans-serif typography, and a compact single-page layout.
+- [x] Build a session-independent HTTP webhook that validates merchant tokens and queues jobs, plus a dedicated two-minute release process that claims eligible weekday/business-hours jobs, calls the real Realay SMS API, records responses and errors, and makes retries safe against concurrent workers.
+- [x] Build one Google-sign-in-protected operations page with status filters, job details and failed-job retry, plus CSV upload that imports in the background and reports progress without leaving the page.
+- [x] Provide a Dockerfile and deployment instructions for GitHub-to-EC2 in ap-southeast-2 with RDS Postgres, including required environment variables, separate scheduler operation, multiple-worker behavior, the ordered SQL query, and where to read logs.

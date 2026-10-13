@@ -1,0 +1,113 @@
+{
+  "version": 4,
+  "app_title": "Comms Release Plan",
+  "nav": {
+    "placement": "none",
+    "items": []
+  },
+  "pages": [
+    {
+      "id": "page-48ac8384",
+      "name": "Comms Release",
+      "route": "/",
+      "item_ref": {
+        "index": 2,
+        "text": "Build one Google-sign-in-protected operations page with status filters, job details and failed-job retry, plus CSV upload that imports in the background and reports progress without leaving the page."
+      },
+      "blocks": [
+        {
+          "id": "header",
+          "type": "nav",
+          "label": "Comms Release header",
+          "hint": "Product name, authenticated identity, and sign-out",
+          "x": 0,
+          "y": 0,
+          "w": 12,
+          "h": 1,
+          "item_ref": {
+            "index": 2,
+            "text": "Build one Google-sign-in-protected operations page with status filters, job details and failed-job retry, plus CSV upload that imports in the background and reports progress without leaving the page."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "intro",
+          "type": "text",
+          "label": "Release queue overview",
+          "hint": "Page title and concise operational guidance",
+          "x": 0,
+          "y": 1,
+          "w": 12,
+          "h": 1,
+          "item_ref": {
+            "index": 2,
+            "text": "Build one Google-sign-in-protected operations page with status filters, job details and failed-job retry, plus CSV upload that imports in the background and reports progress without leaving the page."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "filters",
+          "type": "form",
+          "label": "Status filters",
+          "hint": "All, pending, processing, sent, failed with counts",
+          "x": 0,
+          "y": 2,
+          "w": 8,
+          "h": 1,
+          "item_ref": {
+            "index": 2,
+            "text": "Build one Google-sign-in-protected operations page with status filters, job details and failed-job retry, plus CSV upload that imports in the background and reports progress without leaving the page."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "upload",
+          "type": "form",
+          "label": "CSV import",
+          "hint": "Select CSV, start import, and see upload validation",
+          "x": 8,
+          "y": 2,
+          "w": 4,
+          "h": 2,
+          "item_ref": {
+            "index": 2,
+            "text": "Build one Google-sign-in-protected operations page with status filters, job details and failed-job retry, plus CSV upload that imports in the background and reports progress without leaving the page."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "queue",
+          "type": "table",
+          "label": "Communications queue",
+          "hint": "Job, customer, delivery day, merchant, received time, status, error, retry action",
+          "x": 0,
+          "y": 3,
+          "w": 8,
+          "h": 5,
+          "item_ref": {
+            "index": 2,
+            "text": "Build one Google-sign-in-protected operations page with status filters, job details and failed-job retry, plus CSV upload that imports in the background and reports progress without leaving the page."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "progress",
+          "type": "text",
+          "label": "Import progress",
+          "hint": "Processed, succeeded, failed, and completion state while staying on page",
+          "x": 8,
+          "y": 4,
+          "w": 4,
+          "h": 2,
+          "item_ref": {
+            "index": 2,
+            "text": "Build one Google-sign-in-protected operations page with status filters, job details and failed-job retry, plus CSV upload that imports in the background and reports progress without leaving the page."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    }
+  ],
+  "attached_to_plan": false
+}
